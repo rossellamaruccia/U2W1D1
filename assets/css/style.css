@@ -216,6 +216,7 @@ footer a {
         justify-content: space-between;
         align-items: center;
     }
+    
     header div{
         display: flex;
         flex-flow: row nowrap;
@@ -236,7 +237,7 @@ footer a {
         min-height:fit-content;
         display: inline-block;
         margin: 0 auto;
-
+        vertical-align: middle;
     }
 
     #form {
@@ -244,6 +245,7 @@ footer a {
         max-width: 49%;
         border-radius: 20px;
         margin: 0 auto;
+        vertical-align: middle;
 
     }
 
@@ -262,12 +264,13 @@ footer a {
 }
 
 }
+
 /* stili stampa */
 @media print {
     header{
         display: none;
     }
-    
+
     table{
         background-color: transparent;
     }
@@ -275,6 +278,11 @@ footer a {
     iframe{
         display: none;
     }
+
+    #form{
+        display: none;
+    }
+
     aside{
         display: none;
     }   
