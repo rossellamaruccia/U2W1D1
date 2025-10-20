@@ -210,7 +210,6 @@ footer a {
     }
 
     header {
-        text-align: left;
         display: flex;
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -224,7 +223,7 @@ footer a {
         column-gap: 20px;
     }
 
-    header img{
+    header div img{
         margin: 0;
     }
     
